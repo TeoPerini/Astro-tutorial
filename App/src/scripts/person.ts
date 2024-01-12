@@ -1,0 +1,17 @@
+export interface Person {
+    name: string
+    alias: string
+    portrait_url: string
+}
+
+export const TEO_PERSON: Person = {
+    name: "Teo",
+    alias: "deadstormfire",
+    portrait_url: "/images/BBB.jpg"
+}
+
+export const MARTA_PERSON: Person = {
+    name: "Marta",
+    alias: "juicy freckles",
+    portrait_url: "/images/AAA.JPEG"
+}
