@@ -1,12 +1,24 @@
 ---
+interface Props {
+	title: string;
+	body: string;
+	href: string;
+}
 
-// Server executed typescript
-console.log("Hey ;)")
-
+const { href, title, body } = Astro.props;
 ---
 
-<h1>Heyy</h1>
-
+<li class="link-card">
+	<a href={href}>
+		<h2>
+			{title}
+			<span>&rarr;</span>
+		</h2>
+		<p>
+			{body}
+		</p>
+	</a>
+</li>
 <style>
 	.link-card {
 		list-style: none;
