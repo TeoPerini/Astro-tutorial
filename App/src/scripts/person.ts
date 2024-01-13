@@ -7,11 +7,11 @@ export interface Person {
 export const TEO_PERSON: Person = {
     name: "Teo",
     alias: "deadstormfire",
-    portrait_url: "/images/BBB.jpg"
+    portrait_url: "/images/teo.jpg"
 }
 
-export const MARTA_PERSON: Person = {
-    name: "Marta",
-    alias: "juicy freckles",
-    portrait_url: "/images/AAA.JPEG"
+export const MASSIMO_PERSON: Person = {
+    name: "Massimiliano Lotti",
+    alias: "Lo scavato",
+    portrait_url: "/images/massimo.jpeg"
 }
