@@ -4,14 +4,14 @@ export interface Person {
     portrait_url: string
 }
 
-export const TEO_PERSON: Person = {
-    name: "Teo",
-    alias: "deadstormfire",
-    portrait_url: "/images/teo.jpg"
+export const GIULIO_PERSON: Person = {
+    name: "Giulio Toniolli",
+    alias: "10 condotta",
+    portrait_url: "/images/giulio.jpg"
 }
 
 export const MASSIMO_PERSON: Person = {
     name: "Massimiliano Lotti",
-    alias: "Lo scavato",
+    alias: "cicca",
     portrait_url: "/images/massimo.jpeg"
 }
